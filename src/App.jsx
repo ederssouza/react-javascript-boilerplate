@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      React javascript boilerplate
+      React JavaScript boilerplate
     </div>
   )
 }
