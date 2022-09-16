@@ -1,0 +1,13 @@
+import PropTypes from 'prop-types'
+
+function {{pascalCase name}}(props) {
+  const { children } = props
+
+  return <div>{children}</div>
+}
+
+{{pascalCase name}}.propTypes = {
+  children: PropTypes.node
+}
+
+export default {{pascalCase name}}
